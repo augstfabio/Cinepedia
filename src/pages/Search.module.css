@@ -8,10 +8,15 @@
 .movies {
     display: flex;
     flex-wrap: wrap;
-    
+    width: 1400px;
+    height: auto;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 7em;
 }
 .title {
     margin: 2em;
+    width: 600px;
 }
 .background {
     position: fixed;
@@ -23,14 +28,22 @@
     opacity: 0.2; 
   }
   @media only screen and (max-width: 600px) {
+    .container {
+        width: 600px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
     .container h2{
-        width:600px;
+        width:400px;
+        margin: 2em 0 2em 2em;
     }
     .movies {
         display: flex;
         flex-wrap: wrap;
-        width: 600px;
+        width: 530px;
         align-self: center;
-        margin-left: 24em;
+        align-items: center;
+        margin: 0;
     }
   }

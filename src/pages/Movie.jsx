@@ -45,7 +45,6 @@ export const Movie = () => {
             <h3><span className={styles.texto_amarelo}>Linguagem original: </span> {movie.original_language}</h3>
             <h3><span className={styles.texto_amarelo}>Avaliação:</span> {movie.vote_average}</h3>
             <h3><span className={styles.texto_amarelo}>Data de lançamento: </span>{movie.release_date}</h3>
-            {/* Use o onClick para chamar a função de navegação */}
             <button onClick={handleGoHome} className={styles.btn} type='button'><FaChevronLeft /> Home</button>
           </div>
         </div>
