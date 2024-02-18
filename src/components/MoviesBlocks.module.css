@@ -15,6 +15,7 @@
     flex: 0 0 auto;
     margin-right: 20px;
     margin: 2em;
+    transition: transform 0.2s ease-in-out; 
   }
   .image_container:hover {
     transform: scale(1.05); 

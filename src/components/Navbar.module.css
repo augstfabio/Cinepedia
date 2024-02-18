@@ -43,10 +43,12 @@
 .lupa {
     height: 30px;
     width: 30px;
+    transition:  0.3s ease;
 }
 
 .lupa:hover {
-    color: #b89306;
+    color: #ffcd03;
+    transform: scaleX(-1);
 }
 
 @media only screen and (max-width: 600px) {
